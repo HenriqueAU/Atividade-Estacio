@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="formatos.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+            <a class="navbar-brand" href="home.html">Home</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom" href="receitas.html">Receitas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom" href="cadastro.html">Cadastro</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header> 
+    <main class="main">
+        <section class="titulo-form">
+            <h1>Efetue seu cadastro</h1> 
+        </section>
+        <form action="mailto:teste@example.com" method="post">
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label" for="Nome">Nome:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="Nome" name="Nome">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label" for="E-mail">E-mail:</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" id="E-mail" name="E-mail">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label" for="CEP">CEP:</label>
+                <div class="col-sm-5">
+                    <input type="number" class="form-control" id="CEP" name="CEP">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label" for="Rua">Rua:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="Rua" name="Rua">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label" for="Numero">Número:</label>
+                <div class="col-sm-4">
+                    <input type="number" class="form-control" id="Numero" name="Numero">
+                </div>
+                <label class="col-sm-2 col-form-label" for="Complemento">Complemento:</label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" id="Complemento" name="Complemento">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label" for="Cidade">Cidade:</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="Cidade" name="Cidade">
+                </div>
+                <label class="col-sm-1 col-form-label" for="UF">UF:</label>
+                <div class="col-sm-2">
+                    <input type="text" class="form-control" id="UF" name="UF">
+                </div>
+                <div class="col-sm-2 d-flex align-items-end">
+                    <button type="submit" class="btn btn-primary btn-block">Cadastrar</button>
+                </div>
+            </div>
+        </form>
+    </main>
+    <footer class="footer">
+        <img class="copyright" src="assets/copyright.png">
+        <p class="footer-text">Henrique 2003</p>
+    </footer>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

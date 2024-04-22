@@ -1,0 +1,42 @@
+.receitas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.receita {
+    width: 300px; 
+    height: 600px;  
+    margin: 50px;
+}
+
+.receita .card {
+    height: 100%;
+}
+
+.receita .card-img-top {
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
+}
+
+.receita .card-body {
+    text-align: center;
+    height: calc(100% - 200px); 
+}
+
+.receita .card-text {
+    font-size: 14px;
+}
+
+.receita .card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.receita hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

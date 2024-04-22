@@ -1,0 +1,97 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: tomato;
+    height: 100vh;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.navbar-custom {
+    background-color: #3c3c3c !important;  
+}
+
+
+.navbar-custom .navbar-nav .nav-link-custom {
+    color: white !important; 
+    font-size: 1.25rem; 
+}
+
+
+.navbar-custom .navbar-brand {
+    color: white !important; 
+    font-size: 1.25rem; 
+}
+
+.titulo-form {
+    display: flex;
+    align-items: baseline;
+    padding-left: 200px;
+    color: black;
+}
+
+form {
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
+.conteudo {
+    text-align: center;
+    color: black;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.apresentacao {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    font-size: xx-large;
+}
+
+
+.apresentacao__logo { 
+    height: 50px;
+    width: 50px;
+}
+
+.paragrafo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+footer {
+    display: flex;
+    margin-top: auto; 
+    background-color: black; 
+    color: white; 
+    width: 100%; 
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-text {
+    font-size: larger;
+    margin-top: 13px;
+    text-align: center; 
+}
+.copyright {
+    height: 20px;
+    width: auto;
+}
